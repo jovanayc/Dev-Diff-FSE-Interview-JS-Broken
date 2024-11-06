@@ -1,6 +1,7 @@
 # Super hero task management
 Find the bugs to get the superhero their task!
 There are 2 bugs in this code, one on the Login page and one on the task management page. 
+Start by trying to log into the web app. See the bug descriptions at the bottom of this Readme.
 
 ## Project Structure
 
@@ -26,7 +27,7 @@ CSS file
 
 To log in, use the following test credentials:
 
-- **Username:** `someonecool`
+- **Username:** `spidey`
 - **Password:** `1234`
 
 ## How to Run the App
@@ -36,3 +37,7 @@ To log in, use the following test credentials:
 3. Open `1_login.html` in your browser. You can do this by:
    - Right-clicking on `1_login.html` and selecting "Open with" > your preferred browser.
    - Or, using the Live Server extension in VS Code for a better development experience.
+
+## Bug descriptions
+Bug 1 - The log in won’t register input and allow the continue button to submit. Continue button should press and load next screen when it works. You need to restart live server to get log in button to work.
+Bug 2  - The task is not connecting to the table information to correctly display the task of the username who logged in. Text should be green when it works.
