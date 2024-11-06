@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+}
+
+/* Style for the task message when found */
+.task-found {
+    color: rgb(111, 233, 111); /* Set color to green when the task is found */
+}
+
+/* Style for the task message when no task is found */
+.no-task {
+    color: white; /* Set color to white when no task is found */
+}
+
+.container {
+    text-align: center;
+}
+
+#congratulations {
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.continue-button { /* Position it absolutely to bottom right corner */
+    position: absolute;
+    bottom: 10%;
+    right: 7%;
+}
+
+.error {
+    color: red;
+}
+
+/* Styling for the task table */
+#task-table-container {
+    margin-top: 30px;
+    margin-left: auto; /* centers table */
+    margin-right: auto; /* centers table */
+    width: 80%; /* Make the table responsive */
+    max-width: 900px; /* Max width to ensure it doesn't stretch too far */
+    overflow-x: auto; /* Ensure the table is scrollable on smaller screens */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Center the table */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Adds a border between rows */
+}
+
+th {
+    background-color: #333;
+    color: #ffffff;
+}
+
+tr:hover {
+    background-color: #444;
+}
+
+td {
+    background-color: #222;
+}
+
+/* Optional styling for small screens */
+@media (max-width: 768px) {
+    th, td {
+        padding: 8px;
+    }
+
+    #task-table-container {
+        width: 90%;
+    }
+}
+
+.start-task {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Disabled button styles */
+.start-task.disabled {
+    background-color: #ccc; /* Greyed out when disabled */
+    color: #666;
+    cursor: not-allowed;
+}
+
+/* Enabled button styles */
+.start-task:not(.disabled) {
+    background-color: #4CAF50; /* Green when enabled */
+    color: white;
+}
+
+.start-task:not(.disabled):hover {
+    background-color: #45a049;
+}

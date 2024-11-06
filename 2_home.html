@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome Back, Spiderman</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="greeting-message"></h1>
+        <h2 id="task-message"></h2>
+
+        <!-- Task Table -->
+        <div id="task-table-container">
+            <!-- Table will be dynamically generated here -->
+        </div>
+
+        <!-- Start Task Button (initially disabled) -->
+        <button id="start-task-button" class="start-task disabled" disabled>Start Task</button>
+    </div>
+
+    <!-- Include scripts in proper order -->
+    <script src="tasks.js"></script>
+    <script src="display.js"></script>
+</body>
+
+</html>
