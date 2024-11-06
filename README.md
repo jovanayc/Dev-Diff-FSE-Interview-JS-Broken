@@ -1,4 +1,6 @@
 # Super hero task management
+Find the bugs to get the superhero their task!
+There are 2 bugs in this code, one on the Login page and one on the task management page.
 
 ## Project Structure
 
@@ -31,7 +33,7 @@ To log in, use the following test credentials:
 
 1. Clone or download the repository to your local machine.
 2. Open the project folder in your code editor (e.g., VS Code).
-3. Open `login.html` in your browser. You can do this by:
-   - Right-clicking on `login.html` and selecting "Open with" > your preferred browser.
+3. Open `1_login.html` in your browser. You can do this by:
+   - Right-clicking on `1_login.html` and selecting "Open with" > your preferred browser.
    - Or, using the Live Server extension in VS Code for a better development experience.
 4. Enter the test credentials and click "Ignite" to see the fun fireworks on the home page!
