@@ -36,4 +36,3 @@ To log in, use the following test credentials:
 3. Open `1_login.html` in your browser. You can do this by:
    - Right-clicking on `1_login.html` and selecting "Open with" > your preferred browser.
    - Or, using the Live Server extension in VS Code for a better development experience.
-4. Enter the test credentials and click "Ignite" to see the fun fireworks on the home page!
