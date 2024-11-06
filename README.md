@@ -1,6 +1,6 @@
 # Super hero task management
 Find the bugs to get the superhero their task!
-There are 2 bugs in this code, one on the Login page and one on the task management page.
+There are 2 bugs in this code, one on the Login page and one on the task management page. 
 
 ## Project Structure
 
