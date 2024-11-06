@@ -14,7 +14,7 @@ const displayGreeting = () => {
 const displayTask = () => {
     const taskMessageElement = document.getElementById('task-message');
     const startButton = document.getElementById('start-task-button');
-    const currentTask = getTask(userName); //should get current task for username
+    const currentTask = getTask(); //should get current task for username
 
     taskMessageElement.textContent = `Your next task: ${currentTask}`;
 
